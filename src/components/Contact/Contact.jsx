@@ -7,11 +7,11 @@ export default function Contact({ data: { id, name, number }, onDelete }) {
     <div className={css.contactCard}>
       <div className={css.contactData}>
         <p>
-          <HiUser />
+          <HiUser size="20" />
           {name}
         </p>
         <p>
-          <HiPhone />
+          <HiPhone size="20" />
           {number}
         </p>
       </div>
