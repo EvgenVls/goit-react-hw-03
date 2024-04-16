@@ -1,0 +1,16 @@
+.contactCard {
+  display: flex;
+  max-width: 480px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.contactData {
+  width: 240px;
+  font-size: 16px;
+}
+
+.btn {
+  font-size: 16px;
+}
